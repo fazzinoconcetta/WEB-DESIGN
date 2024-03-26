@@ -1,0 +1,32 @@
+#square1{
+background-color: fuchsia;
+width: 200px;
+height:100px;
+transition-property: transform;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+}
+
+#square1:hover
+{
+transform: translateX(50px);
+}
+
+#square2{
+background-color: blue;
+width: 200px;
+height:100px;
+animation-iteration-count: infinite;
+animation-name: cambiocolore;
+animation-direction: alternate;
+animation-duration: 1s;
+}
+
+@keyframes cambiocolore {
+0% {
+    background-color: blue;    
+    }
+100% {
+    background-color: red;    
+    }
+}
