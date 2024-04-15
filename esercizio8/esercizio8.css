@@ -1,0 +1,77 @@
+*{
+    background-color: rgb(222, 78, 38);
+}
+.tauri-regular {
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.eb-garamond-citazione {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+}
+#image{
+    width: 50%;
+    max-width: 100%;
+    display: block;
+}
+@media (max-width: 200px){
+    img{
+        width: 60%;
+    }
+}
+#img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.cit{
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h3{
+    color: rgb(0, 255, 64);
+}
+
+#img-caption{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+#tribute-info{
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#tribute-link{
+    margin-left: 200px;  
+    color: rgb(0, 255, 64);
+    text-decoration: none;
+}
+
+#tribute-link:hover{
+    color:  rgb(79, 113, 228);
+}
